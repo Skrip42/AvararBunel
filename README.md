@@ -55,7 +55,7 @@ avatar:
 ```
 
 
-## customizing:
+## customization:
 ### customize base templates
 ```twig
     {# create new file: templates/bundles/AvatarBundle/avatar.html.twig#}
