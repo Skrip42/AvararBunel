@@ -1,0 +1,33 @@
+{
+    "name": "skrip42/avatar-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony avatar bundle",
+    "keywords": [],
+    "homepage": "https://github.com/Skrip42/avatar-bundle",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "skrip42/color": "^1.0",
+        "twig/twig": "^2.12|^3.0",
+        "symfony/config": "^4.2|^5.0",
+        "symfony/http-kernel": "^4.3|^5.0",
+        "symfony/dependency-injection": "^4.1|^5.0"
+    },
+    "authors": [
+        {
+            "name": "skrip",
+            "email": "skrip42@gmail.com"
+        },
+        {
+            "name": "galzuris",
+            "email": "galzuris@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skrip42\\Bundle\\AvatarBundle\\":""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+    Skrip42\Bundle\AvatarBundle\Twig\AvatarExtension:
+        tags: [twig.extension]
+    Skrip42\Bundle\AvatarBundle\ColorGenerator: ~
+    Skrip42\Bundle\AvatarBundle\ColorGeneratorInterface: '@Skrip42\Bundle\AvatarBundle\ColorGenerator'
+    Skrip42\Bundle\AvatarBundle\LabelGenerator: ~
+    Skrip42\Bundle\AvatarBundle\LabelGeneratorInterface: '@Skrip42\Bundle\AvatarBundle\LabelGenerator'
+    Skrip42\Bundle\AvatarBundle\AvatarGenerator: ~
+    Skrip42\Bundle\AvatarBundle\AvatarGeneratorInterface: '@Skrip42\Bundle\AvatarBundle\AvatarGenerator'

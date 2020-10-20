@@ -1,0 +1,5 @@
+#avatar:
+  #color_generator:
+    #saturation: 1
+    #lightness: 0.65
+    #algo: 'adler32'
