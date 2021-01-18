@@ -4,7 +4,7 @@
     "description": "Symfony avatar bundle",
     "keywords": [],
     "homepage": "https://github.com/Skrip42/avatar-bundle",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {

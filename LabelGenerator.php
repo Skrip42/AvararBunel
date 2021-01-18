@@ -10,6 +10,6 @@ class LabelGenerator implements LabelGeneratorInterface
         $string = '';
         $string = mb_substr($user->getLastName(), 0, 1) . '.'
             . mb_substr($user->getFirstName(), 0, 1) . '.';
-        return strtoupper($string);
+        return mb_strtoupper($string);
     }
 }
